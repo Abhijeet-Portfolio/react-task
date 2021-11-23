@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './assets/css/index.css';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './home';
-import Contact from './contact';
-import Stuff from './stuff';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/home';
+import Contact from './components/contact';
+import Stuff from './components/stuff';
 
 ReactDOM.render(
   <React.StrictMode>
