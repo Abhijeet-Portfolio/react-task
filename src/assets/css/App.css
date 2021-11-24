@@ -1,0 +1,29 @@
+header { 
+  padding: 20px 0;
+  background-color: #fefefe;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav { width: 25%;}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+}

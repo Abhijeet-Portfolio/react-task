@@ -1,0 +1,23 @@
+.search form {
+    width: 30%;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search form span { display: none;}
+.search .form-group { width: 75%;}
+
+.search form input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px 2%;
+    outline: none;
+}
+
+.search .form-control { width: 25%;}
+
+.search form button {
+    width: 100%;
+    padding: 5px 0;
+}
