@@ -6,19 +6,3 @@
     text-align: center;
     text-decoration: underline;
 }
-
-.books ul {
-    margin-top: 25px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.books li {
-    box-sizing: border-box;
-    padding: 10px 2%;
-    border-radius: 10px;
-    box-shadow: 0 0 5px 1px #dddddd;
-    margin: 8px 0.5%;
-    background-color: #fefefe;
-}

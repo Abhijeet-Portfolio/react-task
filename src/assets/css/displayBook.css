@@ -1,0 +1,22 @@
+.displayBooks {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.displayBooks li {
+    box-sizing: border-box;
+    padding: 10px 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px #dddddd;
+    margin: 15px 0.5%;
+    background-color: #fefefe;
+}
+
+.displayBooks h3 { 
+    padding-bottom: 5px;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
