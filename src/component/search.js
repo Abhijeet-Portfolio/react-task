@@ -46,7 +46,6 @@ function Search() {
       return;
     }
 
-    console.log(result);
     const res = result.verses.map((element) => {
       return {
         author: element.book.author,
@@ -60,8 +59,6 @@ function Search() {
     return <Displaybook book={res2} />;
   };
 
-  console.log(version);
-
   return (
     <main>
       <section className="search">
@@ -70,9 +67,10 @@ function Search() {
             <select
               name="version"
               id="version"
+              defaultValue=""
               onChange={(e) => setVersion(e.target.value)}
             >
-              <option disabled selected hidden value="">
+              <option disabled hidden value="">
                 Select the version
               </option>
               <option value="acf">acf</option>
