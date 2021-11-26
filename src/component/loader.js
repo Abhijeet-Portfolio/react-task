@@ -1,9 +1,22 @@
-import '../assets/css/loader.css';
+import "../assets/css/Loader.css";
 
-function Loader() {
-    return (
-        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-    )
-}
+const Loader = () => {
+  return (
+    <div class="lds-spinner">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  );
+};
 
 export default Loader;

@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/css/index.css';
-import App from './component/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './assets/css/Index.css';
+import App from './component/App';
 import Home from './component/Home';
-import Books from './component/book';
-import Search from './component/search';
+import Books from './component/Book';
+import Search from './component/Search';
 
 ReactDOM.render(
   <React.StrictMode>

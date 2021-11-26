@@ -1,4 +1,4 @@
-import '../assets/css/displayBook.css';
+import '../assets/css/DisplayBook.css';
 
 const Displaybook = (props) => {
 
