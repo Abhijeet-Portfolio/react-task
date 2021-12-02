@@ -1,6 +1,4 @@
-import ExtraDetails from "./ExtraDetail";
-
-const Display = ({ data }) => {
+const BasicDetail = ({data}) => {
   return (
     <div>
       <h2>Employee Basic Details Component:</h2>
@@ -11,4 +9,4 @@ const Display = ({ data }) => {
   );
 };
 
-export default ExtraDetails(Display);
+export default BasicDetail;

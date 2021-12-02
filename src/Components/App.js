@@ -1,4 +1,5 @@
-import Display from "./display";
+import BasicDetail from "./BasicDetail";
+import SalaryDetail from "./SalaryDetail";
 import data from "../utilities/data";
 import "../assets/css/App.css";
 
@@ -15,7 +16,8 @@ const App = () => {
           <ul className="emp">
             {data.map((data, key) => (
               <li key={key}>
-                <Display data={data} />
+                {HOC(BasicDetail,data)}
+                {HOC(SalaryDetail,data)}
               </li>
             ))}
           </ul>
@@ -26,3 +28,9 @@ const App = () => {
 };
 
 export default App;
+
+const HOC = (WrapperComponent,data) => {
+  return <>
+    <WrapperComponent data={data}/>
+  </>;
+};
