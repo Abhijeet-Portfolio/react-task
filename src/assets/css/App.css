@@ -1,0 +1,17 @@
+.wrapper {
+  max-width: 1360px;
+  width: 60%; 
+  margin: 0 auto;
+}
+
+form {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper > div {
+  padding: 20px 0 50px;
+  text-align: center;
+}
+
